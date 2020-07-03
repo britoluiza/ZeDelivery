@@ -44,7 +44,7 @@ public class UsuarioTest {
        // Buscar Colorado Appia 600ml
          navegador.findElement(By.id("search-product-input")).sendKeys("Colorado Appia");
 
-         //Selecionar Colorado
+         //Selecionar Colorado 
         navegador.findElement(By.className("css-kzmtws-productCard")).click();
 
         //Selecionar 6 unidades
